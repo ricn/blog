@@ -1,0 +1,34 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My Blog'
+theme = 'paper'
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+
+[params.homeInfoParams]
+  Title = "Welcome to My Blog"
+  Content = "A blog built with Hugo"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
